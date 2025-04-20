@@ -1,5 +1,5 @@
 // File: src/components/Sidebar.tsx
-import { Home, List, BarChart, Wallet, Settings } from 'lucide-react';
+import { Home, List, BarChart, Wallet, Settings, UploadCloud } from 'lucide-react';
 import Link from 'next/link';
 
 const navItems = [
@@ -7,6 +7,7 @@ const navItems = [
   { icon: List, label: 'Transactions', href: '/transactions' },
   { icon: BarChart, label: 'Cash Flow', href: '/cashflow' },
   { icon: Wallet, label: 'Accounts', href: '/accounts' },
+  { icon: UploadCloud, label: 'Upload', href: '/upload' },
   { icon: Settings, label: 'Settings', href: '/settings' },
 ];
 
